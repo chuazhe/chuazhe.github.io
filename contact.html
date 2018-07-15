@@ -7,34 +7,30 @@
     <title>Chua Wei Zhe</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
-<body><script src="assets/js/jquery.min.js"></script>
+<body id="contactMe"><script src="assets/js/jquery.min.js"></script>
 <script type="text/javascript">var submitted=false;</script>
 <div class="contact-clean">
     <form id="gform" name="gform" enctype="text/plain"
           action="https://docs.google.com/forms/d/e/1FAIpQLSfys43XnH3WSlCDiciwqLnC9jJ2udsrLI_g2-efwISS70-kPg/formResponse?"
           target="hidden_iframe" onsubmit="submitted=true;">
-        <h2 class="text-center">You can send an email to chuazhe@gmail.com or contact me through this form Thanks a
-            lot~</h2>
+        <h2 class="text-justify">You can send me an email to chuazhe@gmail.com or drop me a message through this form. Thank you!</h2>
         <div class="form-group"><input type="text" name="entry.166547718" placeholder="Name" class="form-control"
-                                       id="entry.166547718"/></div>
+                                       id="name"/></div>
         <div class="form-group">
-            <input type="email" name="entry.513352104" placeholder="Email" class="form-control">
+            <input type="email" name="entry.513352104" placeholder="Email" class="form-control" id="emailInput" >
         </div>
-        <div class="form-group"><textarea rows="14" name="entry.1703503308" placeholder="Message"
+        <div class="form-group"><textarea rows="14" name="entry.1703503308" placeholder="Message"  id="messageInput"
                                           class="form-control"></textarea></div>
-        <div class="form-group">
-            <button class="btn btn-primary" type="submit" id="submit">send</button>
-            <div></div>
+        <div>
+            <button class="btn btn-primary" type="submit" id="submit">Send</button>
         </div>
     </form>
     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
@@ -44,10 +40,11 @@ $('#gform').on('submit', function(e) {
   $('#gform').prepend('Thank you! Your message has been sent successfully!');
   });
 </script>
-</div>
+
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="assets/js/script.min.js"></script>
 </body>
 
