@@ -9,27 +9,44 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body id="homePage">
-    <!-- Source: https://www.pexels.com/photo/black-and-white-laptop-computer-872958/ -->
-    <div class="jumbotron jumbotron-fluid"
-        style="background-image:url(&quot;assets/img/pexels-photo-872958.jpeg&quot;);margin:0;">
-        <div class="greeting">
-            <h1><span class="typed"></span></h1>
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-xs-12 col-sm-12 col-md-6 my-auto">
+                <div>
+                    <h1 class="greeting"><span class="typed"></span></h1>
+                    <p class="descrip" data-aos="fade-right" data-aos-duration="200" data-aos-delay="100">
+                        I am Chua Wei Zhe. Welcome to my website where you
+                        can know more about me, as well as a channel to contact me.<br></p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <!-- Source: https://icon-library.net/icon/computer-programmer-icon-14.html/ -->
+                <a><img src="assets/img/Computer.jpg" class="img-fluid" /></a>
+            </div>
         </div>
-        <div class="descrip">
-            <p data-aos="fade-right" data-aos-duration="200" data-aos-delay="100"
-                style="font-family:Raleway, sans-serif;">I am Chua Wei Zhe. I am a student from USM, Malaysia
-                with a passion for great design. Welcome to my website where you
-                can know more about me, as well as a channel to contact me.<br></p>
+    </div>
+
+    <div class="container-fluid p-2" style="height:100%;background:linear-gradient(180deg, #8C43FF 50%, #FFFFFF 50%);">
+        <div class="row no-gutters">
+            <div class="col works">
+                <h1 id="Heading1">Education</h1>
+            </div>
         </div>
-        <div class="container social"><a href="https://www.facebook.com/chuazhe412" target="_blank"
-                class="fa fa-facebook" id="facebookButton"></a>
-            <a href="https://www.linkedin.com/in/chuazhe" target="_blank" class="fa fa-linkedin"
-                id="linkedinButton"></a>
-            <a href="https://www.github.com/chuazhe" target="_blank" class="fa fa-github" id="githubButton"></a>
+        <div class="row">
+            <div class="card text-center mx-auto" style="width:36rem;">
+                <img class="card-img-top p-4" src="assets/img/USM.png" alt="Card image cap">
+                <div class="card-body p-2">
+                    <h5 class="card-title purple">Bachelor of Computer Science</h5>
+                    <p class="card-text">Sep 2016 - Oct 2020(Expected)</p>
+                    <p class="card-text">Major: Software Engineering</p>
+                    <p class="card-text">Minor: Management</p>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -37,57 +54,58 @@
         <div class="container-fluid">
             <br>
             <div class="intro">
-                <h1 class="text-center">Skills &amp; Abilities</h1>
+                <h1 id="Heading2" class="text-center">Skills &amp; Abilities</h1>
             </div>
             <br>
             <div class="row articles">
                 <!--Source: https://www.shareicon.net/code-852179-->
                 <div class="col-sm-6 col-md-4 item"><a><img src="assets/img/PL.png" class="img-fluid" /></a>
-                    <h3 class="name">Programming</h3>
+                    <h3 class="name purple">Programming</h3>
                     <p class="description">There are hundreds of programming language. I know a few programming
                         languages and have coded several small projects with it. I am familiar and comfortable using the
                         languages as stated below.<br></p>
                     <ul class="listOfItem" style="list-style-type:none">
-                        <li class="headerList">Languages I speak:<br></li>
+                        <li class="headerList purple">Languages I speak:<br></li>
                         <li>C#</li>
                         <li>C++</li>
                         <li>Java</li>
                     </ul><br>
                     <ul class="listOfItem" style="list-style-type:none">
-                        <li class="headerList">Development Tool:<br></li>
+                        <li class="headerList purple">Development Tool:<br></li>
                         <li>Android Development</li>
                     </ul>
                 </div>
                 <!--Source: https://bashooka.com/wp-content/uploads/2018/11/illustration-website-template-25.jpg-->
                 <div class="col-sm-6 col-md-4 item"><a><img src="assets/img/web-development.jpg"
                             class="img-fluid" /></a>
-                    <h3 class="name">Web Development</h3>
+                    <h3 class="name purple">Web Development</h3>
                     <p class="description">I alway enjoy bringing ideas to life in the browser and value clean design
-                        patterns and thoughtful interactions.. I am familiar and comfortable using the web programming
+                        patterns and thoughtful interactions. I am familiar and comfortable using the web programming
                         languages as stated below.<br></p>
                     <ul class="listOfItem" style="list-style-type:none">
-                        <li class="headerList">Languages I speak:<br></li>
+                        <li class="headerList purple">Languages I speak:<br></li>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
                     </ul><br>
                     <ul class="listOfItem" style="list-style-type:none">
-                        <li class="headerList">Development Tool:<br></li>
+                        <li class="headerList purple">Development Tool:<br></li>
                         <li>Bootstrap</li>
+                        <li>ASP.Net Core</li>
                     </ul>
                 </div>
                 <!--Source: https://integratedsms.com.au/wp-content/uploads/2019/05/integrated-student-management-system_0000_Training-plan-management.jpg-->
                 <div class="col-sm-6 col-md-4 item"><a><img src="assets/img/AS.jpg" class="img-fluid" /></a>
-                    <h3 class="name">Additional Skills</h3>
+                    <h3 class="name purple">Additional Skills</h3>
                     <p class="description">Attending university is not only about turning up to classes and passing
                         modules. I have learned a lot and developed many skills and abilities inside the classroom, and
                         even more outside the classroom. </p>
                     <ul class="listOfItem" style="list-style-type:none">
-                        <li class="headerList">Design Tools:</li>
+                        <li class="headerList purple">Design Tools:</li>
                         <li>Adobe Photoshop</li>
                     </ul><br>
                     <ul class="listOfItem" style="list-style-type:none">
-                        <li class="headerList">Qualification:<br></li>
+                        <li class="headerList purple">Qualification:<br></li>
                         <li><a href="CPRE-FL.html" target="_blank">CPRE-FL</a></li>
                         <li><a href="HCNA.html" target="_blank">HCNA-R&S</a></li>
                     </ul>
@@ -96,135 +114,184 @@
         </div>
     </div>
 
-
-    <!-- 6200EE compliment white font-->
     <br>
-    <div class="row no-gutters">
-        <div class="col works">
-            <h1 id="workHeading">Work Experiences</h1>
+
+
+    <div class="container-fluid p-2 my-1"
+        style="height:100%;background: linear-gradient(180deg, #8C43FF 50%, #FFFFFF 50%);">
+        <div class="row no-gutters">
+            <div class="col works">
+                <h1 id="Heading1">Work Experiences</h1>
+            </div>
+        </div>
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col-auto image-center">
+                    <img src="assets/img/Keysight.jpg" class="img" alt="Keysight">
+                </div>
+                <div class="col">
+                    <div class="card-block px-2 my-2">
+                        <div class="card-body p-0">
+                            <h3 class="card-title purple">Keysight Technologies Malaysia</h3>
+                            <h5 class="card-title purple">Research And Development Intern</h5>
+                            <h6 class="card-title">February 2019 - August 2019</h6>
+                            <p class="card-text">
+                                <ul>
+
+                                    <li>XXX</li>
+                                    <li>XXX</li>
+                                    <li>XXX</li>
+                                    <li>XXX</li>
+
+                                </ul>
+
+                            </p>
+                            <a href="Keysight.html" target="_blank" class="btn btn-primary"
+                                id="hoverButton">Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col-auto image-center">
+                    <img src="assets/img/PGC.jpg" class="img-fluid" alt="Penang Green Council">
+                </div>
+                <div class="col">
+                    <div class="card-block px-2 my-2">
+                        <div class="card-body p-0">
+                            <h3 class="card-title purple">Penang Green Council</h3>
+                            <h5 class="card-title purple">Communication Intern</h5>
+                            <h6 class="card-title">July 2017 - August 2017</h6>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Worked as part of Communications and Publicity team in preparation of PGIGC
+                                        (Penang International Green Carnival) 2017</li>
+                                    <li>Promoted PGIGC 2017 by creating artworks with Adobe Photoshop</li>
+                                    <li>Assisted in internal and external communications</li>
+                                    <li>Supported the day-to-day activities in the office</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-    <br>
-    <div class="card">
+
+
+    <div class="container-fluid p-2 my-1">
         <div class="row no-gutters">
-            <div class="col-auto image-center">
-                <img src="assets/img/Keysight.jpg" class="img-responsive" alt="Keysight">
+            <div class="col works">
+                <h1 id="Heading2">Projects</h1>
             </div>
-            <div class="col">
-                <div class="card-block px-2">
-                    <div class="card-body">
-                        <h3 class="card-title">Keysight Technologies Malaysia</h3>
-                        <h5 class="card-title">Research And Development Intern</h5>
-                        <h6 class="card-title">February 2019 - August 2019</h6>
-                        <p class="card-text">
-                            <ul>
-                                <!--
-                            <li>Led the project team consisting of 30 committees to plan and conduct the project</li>
-                            <li>Worked as part of the project team to achieve project milestones</li>
-                            <li>Made vital decisions and created project milestones</li>
-                            <li>Monitored the project workflow and made milestones adjustment as needed</li>
-                        -->
-                            </ul>
-                        </p>
-                        <a href="Keysight.html" target="_blank" class="btn btn-primary">Certificate</a>
+        </div>
+
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col-auto image-center">
+                    <!-- Source: https://y3k8f7y2.stackpathcdn.com/wp-content/uploads/2018/06/distracted-driving-resize.jpg -->
+                    <img class="" src="assets/img/Driving.jpg" class="img-fluid" alt="Driving">
+                </div>
+                <div class="col">
+                    <div class="card-block px-2 my-2">
+                        <div class="card-body p-0">
+                            <h3 class="card-title" style="color:#8C43FF">Mobile Sensors & Solution for Detecting Vehicle
+                                Drivers</h3>
+                            <p class="card-text">
+                                Reduction in road accident still remain a big challenge to current and
+                                future
+                                transportation system as the rate of road accident rise every year even with all the
+                                advancement
+                                of technology and initiative by the government. With the advancement in technologies and
+                                sensor,
+                                detection and identification of the user has become a hot topic in research methods.
+                            </p>
+                            <a href="https://github.com/chuazhe/Mobile-Sensors-Solution-for-Detecting-Vehicle-Drivers"
+                                target="_blank" class="btn btn-primary" id="hoverButton">More</a>
+                            <a href="Mobile Sensors & Solution for Detecting Vehicle Drivers.pdf" target="_blank"
+                                class="btn btn-primary" id="hoverButton">Documentation</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="card">
-        <div class="row no-gutters">
-            <div class="col-auto image-center">
-                <img src="assets/img/PGC.jpg" class="img-fluid" alt="Penang Green Council">
+    <div class="container-fluid p-2 mt-5"
+        style="height:100%;background: linear-gradient(180deg, #8C43FF 50%, #FFFFFF 50%);">
+        <div class="row no-gutters" style="background-color:#8C43FF">
+            <div class="col works">
+                <h1 id="Heading1">Leadership Experience</h1>
             </div>
-            <div class="col">
-                <div class="card-block px-2">
-                    <div class="card-body">
-                        <h3 class="card-title">Penang Green Council</h3>
-                        <h5 class="card-title">Communication Intern</h5>
-                        <h6 class="card-title">July 2017 - August 2017</h6>
-                        <p class="card-text">
-                            <ul>
-                                <li>Worked as part of Communications and Publicity team in preparation of PGIGC
-                                    (Penang International Green Carnival) 2017</li>
-                                <li>Promoted PGIGC 2017 by creating artworks with Adobe Photoshop</li>
-                                <li>Assisted in internal and external communications</li>
-                                <li>Supported the day-to-day activities in the office</li>
-                            </ul>
-                        </p>
+        </div>
+        <br>
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col">
+                    <div class="card-block px-2 my-2">
+                        <div class="card-body p-0">
+                            <h3 class="card-title">Pre-University Seminar</h3>
+                            <h5 class="card-title">Project Director</h5>
+                            <h6 class="card-title">November 2017 - March 2018</h6>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Led the project team to plan and conduct the project</li>
+                                    <li>Worked as part of the project team to achieve project milestones</li>
+                                    <li>Made vital decisions and created project milestones</li>
+                                    <li>Monitored the project workflow and made milestones adjustment as needed</li>
+                                </ul>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <br>
-    <div class="row no-gutters">
-        <div class="col works">
-            <h1 id="workHeading">Projects</h1>
-        </div>
-    </div>
-    <br>
-
-    <div class="card">
-        <div class="row no-gutters">
-            <div class="col-auto image-center">
-                <!-- Source: https://y3k8f7y2.stackpathcdn.com/wp-content/uploads/2018/06/distracted-driving-resize.jpg -->
-                <img class="" src="assets/img/Driving.jpg" class="img-fluid" alt="Driving">
-            </div>
-            <div class="col">
-                <div class="card-block px-2">
-                    <div class="card-body">
-                        <h3 class="card-title">Mobile Sensors & Solution for Detecting Vehicle Drivers</h3>
-                        <p class="card-text">
-                            Reduction in road accident still remain a big challenge to current and
-                            future
-                            transportation system as the rate of road accident rise every year even with all the
-                            advancement
-                            of technology and initiative by the government. With the advancement in technologies and
-                            sensor,
-                            detection and identification of the user has become a hot topic in research methods.
-                        </p>
-                        <a href="https://github.com/chuazhe/Mobile-Sensors-Solution-for-Detecting-Vehicle-Drivers"
-                            target="_blank" class="btn btn-primary">More</a>
-                        <a href="Mobile Sensors & Solution for Detecting Vehicle Drivers.pdf" target="_blank"
-                            class="btn btn-primary">Documentation</a>
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col">
+                    <div class="card-block px-2 my-2">
+                        <div class="card-body p-0">
+                            <h3 class="card-title">Usm Tionghua Language Society Freshmen Bonding Camp</h3>
+                            <h5 class="card-title">Secretary</h5>
+                            <h6 class="card-title">September 2017 - November 2017</h6>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Utilized Facebook and WhatsApp to keep committees informed</li>
+                                    <li>Performed secretary duties such as scheduling meeting, typing and filing</li>
+                                    <li>Assisted in the preparation of documents and files</li>
+                                </ul>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <br>
-    <div class="row no-gutters">
-        <div class="col works">
-            <h1 id="workHeading">Leadership Experience</h1>
-        </div>
-    </div>
-    <br>
 
 
-    <div class="card">
-        <div class="row no-gutters">
-            <div class="col-auto image-center">
-                <!--Source: https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg -->
-                <img class="" src="assets/img/Director.jpg" class="img-fluid" alt="Project Director">
-            </div>
-            <div class="col">
-                <div class="card-block px-2">
-                    <div class="card-body">
-                        <h3 class="card-title">Pre-University Seminar</h3>
-                        <h5 class="card-title">Project Director</h5>
-                        <h6 class="card-title">November 2017 - March 2018</h6>
-                        <p class="card-text">
-                            <ul>
-                                <li>Led the project team to plan and conduct the project</li>
-                                <li>Worked as part of the project team to achieve project milestones</li>
-                                <li>Made vital decisions and created project milestones</li>
-                                <li>Monitored the project workflow and made milestones adjustment as needed</li>
-                            </ul>
-                        </p>
+
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col">
+                    <div class="card-block px-2 my-2">
+                        <div class="card-body p-0">
+                            <h3 class="card-title">Academic Counselling Group of Usm Tionghua Language Society</h3>
+                            <h5 class="card-title">Executive Committee</h5>
+                            <h6 class="card-title">September 2017 - May 2018</h6>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Developed educational program for students at different levels to promote their
+                                        social
+                                        development</li>
+                                    <li>Provided individual and group counselling and parent consultation</li>
+                                    <li>Participated in multiple workshop with other universities</li>
+                                </ul>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -232,59 +299,6 @@
     </div>
 
 
-    <div class="card">
-        <div class="row no-gutters">
-            <div class="col-auto image-center">
-                <!-- Source: https://images.squarespace-cdn.com/content/v1/5c4a77b27c9327f7a21ff2e4/1550461300001-KZD75KVBP5K4H3JZDUM7/ke17ZwdGBToddI8pDm48kMR1yAHb8bPoH1-OdajP2rZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpya-Yv2-AUIrtyc_1d9d84jKAfrgH35AgL5HDK7jKFTEAbkVb2mHFRzAaMt_-j0ggg/men-office-worker-typing-on-the-keyboard-PUJC3WB.jpg -->
-                <img src="assets/img/Secretary.jpg" class="img-fluid" alt="Secretary">
-            </div>
-            <div class="col">
-                <div class="card-block px-2">
-                    <div class="card-body">
-                        <h3 class="card-title">Usm Tionghua Language Society Freshmen Bonding Camp</h3>
-                        <h5 class="card-title">Secretary</h5>
-                        <h6 class="card-title">September 2017 - November 2017</h6>
-                        <p class="card-text">
-                            <ul>
-                                <li>Utilized Facebook and WhatsApp to keep committees informed</li>
-                                <li>Performed secretary duties such as scheduling meeting, typing and filing</li>
-                                <li>Assisted in the preparation of documents and files</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="card">
-        <div class="row no-gutters">
-            <div class="col-auto image-center">
-                <!--Source: https://suez.azureedge.net/-/media/suez-global/images/header/header-executive-committee.jpg?v=1&d=20190705T152903Z-->
-                <img class="" src="assets/img/Executive.jpg" class="img-fluid" alt="Executive">
-            </div>
-            <div class="col">
-                <div class="card-block px-2">
-                    <div class="card-body">
-                        <h3 class="card-title">Academic Counselling Group Of Usm Tionghua Language Society</h3>
-                        <h5 class="card-title">Executive Committee</h5>
-                        <h6 class="card-title">September 2017 - May 2018</h6>
-                        <p class="card-text">
-                            <ul>
-                                <li>Developed educational program for students at different levels to promote their
-                                    social
-                                    development</li>
-                                <li>Provided individual and group counselling and parent consultation</li>
-                                <li>Participated in multiple workshop with other universities</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <br>
     <br>
     <div class="wrapper">
@@ -294,18 +308,20 @@
                 data-aos-once="true" id="contactButton" onclick="window.open('contact.html','_blank');">Contact
                 Me</button>
         </div>
+        <footer id="footer">
     </div>
-    <footer id="footer">
-
-        <div style="background: black; text-align: center; margin: 0px; padding:10px">
-            <p id="footerWord" style="color:grey; font-family: raleway">Keep learning and levelling up all the time
-                <br>Handcrafted by Chua Wei Zhe</p>
-        </div>
+    <div style="background-color: #8C43FF; text-align: center; margin: 0px; padding:10px">
+        <p id="footerWord" style="color:white; font-family: raleway">Keep learning and levelling up all the time
+            <br>Handcrafted by Chua Wei Zhe</p>
+        <a href="https://www.facebook.com/chuazhe412" target="_blank" class="fa fa-facebook" id="facebookButton"></a>
+        <a href="https://www.linkedin.com/in/chuazhe" target="_blank" class="fa fa-linkedin" id="linkedinButton"></a>
+        <a href="https://www.github.com/chuazhe" target="_blank" class="fa fa-github" id="githubButton"></a>
+    </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
