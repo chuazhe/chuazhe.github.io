@@ -335,6 +335,7 @@ html {
 
 .btn-primary {
     background-color: #8C43FF !important;
+    border: 1px solid #8C43FF !important;
 }
 
 .purple {
