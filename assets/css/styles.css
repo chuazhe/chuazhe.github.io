@@ -349,3 +349,15 @@ html {
 .descrip {
     font-size: 2rem;
 }
+
+.bodymovin {
+    width: 62px; /* 310 */
+    height: 34px; /* 170 */
+    position: absolute;
+    top: -35px;
+    right: -15%;
+    z-index: 0;
+    pointer-events: none;
+    transition: transform 0s;
+  }
+  
