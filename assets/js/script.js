@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    AOS.init({
+        disable: "mobile"
+    })
 }), $(document).ready(function() {
     if ($("body#homePage").length) {
         var t = $(".typed");
@@ -17,7 +20,7 @@ $(document).ready(function() {
         0 != $("#name").val().length && 0 != $("#emailInput").val().length && 0 != $("#messageInput").val().length ? ($("#submit").attr("disabled", !1), $("#submit").css("opacity", "1")) : ($("#submit").attr("disabled", !0), $("#submit").css("opacity", "0.5"))
     }), $("#gform").on("submit", function(t) {
         $("#gform *").fadeOut(2e3), $("#gform").prepend("Thank you! Your message has been sent successfully!")
-    }))
+    }), console.log("loaded2"))
 }),
 function(t) {
     "use strict";
