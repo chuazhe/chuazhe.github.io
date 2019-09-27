@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    AOS.init({
+        disable: "mobile"
+    })
 }), $(document).ready(function() {
     if ($("body#homePage").length) {
         var t = $(".typed");
