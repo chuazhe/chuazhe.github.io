@@ -43,12 +43,11 @@ body {
   border-bottom: .25rem solid transparent;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover {
   border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-.nav-link + .nav-link {
+.nav-link {
   margin-left: 1rem;
 }
 
