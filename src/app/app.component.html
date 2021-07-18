@@ -3,10 +3,10 @@
     <header class="mb-auto">
       <div>
         <!-- <h3 class="float-md-start mb-0">Cover</h3> -->
-        <nav class="nav fixed-top justify-content-center">
+        <nav class="nav fixed-top justify-content-center" [ngClass]="{'navbar-inverse' : isScrolled}">
           <li *ngFor="let item of menuItems">
             <a class="nav-link" [routerLink]="item.pageUrl" 
-               routerLinkActive="active">
+               routerLinkActive="active" >
                {{item.title}}
             </a>
           </li>

@@ -196,6 +196,9 @@
     border: 1px solid #3b5998
 }
 
+.rounded-button {
+    border-radius: 12px;
+}
 
 .container.social {
     margin-left: 5rem;
@@ -286,11 +289,11 @@
     color: #8C43FF;
 }
 
-#homePage,
+/* #homePage,
 body,
 html {
     overflow-x: hidden;
-}
+} */
 
 .col.-link {
     display: block;
