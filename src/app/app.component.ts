@@ -9,6 +9,7 @@ export class AppComponent implements OnInit, OnDestroy {
   isScrolled = false;
 
   menuItems = [
+    { title: 'Home', pageUrl: 'home' },
     { title: 'Experience', pageUrl: 'experience' },
     { title: 'Education', pageUrl: 'education' },
     { title: 'Skills', pageUrl: 'skills' },

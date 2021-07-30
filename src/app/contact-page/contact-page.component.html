@@ -1,1 +1,27 @@
-<p>contact-page works!</p>
+<div id="contactMe"><script>var submitted=false;</script>
+    <div class="contact-clean">
+        <form id="gform" name="gform" enctype="text/plain"
+              action="https://docs.google.com/forms/d/e/1FAIpQLSfys43XnH3WSlCDiciwqLnC9jJ2udsrLI_g2-efwISS70-kPg/formResponse?"
+              target="hidden_iframe" onsubmit="submitted=true;">
+            <h2 class="text-justify">You can send me an email to chuazhe@gmail.com or drop me a message through this form. Thank you!</h2>
+            <div class="form-group"><input type="text" name="entry.166547718" placeholder="Name" class="form-control"
+                                           id="name"/></div>
+            <div class="form-group">
+                <input type="email" name="entry.513352104" placeholder="Email" class="form-control" id="emailInput" >
+            </div>
+            <div class="form-group"><textarea rows="14" name="entry.1703503308" placeholder="Message"  id="messageInput"
+                                              class="form-control"></textarea></div>
+            <div>
+                <button class="btn btn-primary" type="submit" id="submit">Send</button>
+            </div>
+        </form>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+    
+    
+    
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+        <script src="assets/js/script.js"></script>
+    </div>
+    </div>
