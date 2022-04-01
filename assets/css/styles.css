@@ -208,6 +208,11 @@
     color: #007BB5
 }
 
+#starButton:hover {
+    border: 3px solid #171515;
+    color: #171515
+}
+
 #githubButton:hover {
     border: 1px solid #171515;
     background-color: #EBEBEB;
